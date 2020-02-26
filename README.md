@@ -80,7 +80,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Use the Gatsby CLI to create a new site, specifying the hello-world starter.
 
     ```shell
-    git clone git@github.com:mhigley/ScrollMagicGSAP.git
+    git clone https://www.github.com:mhigley/ScrollMagicGSAP.git
     ```
 
 1.  **Change into directory, install, and run develop**
