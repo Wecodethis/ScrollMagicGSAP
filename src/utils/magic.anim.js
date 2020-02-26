@@ -126,7 +126,7 @@ ScrollMagic.Scene.extend(function() {
             "WARNING: tween was overwritten by another. To learn how to avoid this issue see here: https://github.com/janpaepke/ScrollMagic/wiki/WARNING:-tween-was-overwritten-by-another"
           )
         }
-      for (var i = 0, thisTween, oldCallback; i < list.length; i++) {
+      for (let i = 0, thisTween, oldCallback; i < list.length; i++) {
         thisTween = list[i]
         if (oldCallback !== newCallback) {
           oldCallback = thisTween.vars.onOverwrite
